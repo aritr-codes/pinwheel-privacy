@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinwheel Privacy Policy</title>
+<style>
+  :root { --bg: #fbf8f6; --fg: #2b2522; --muted: #6b605a; --accent: #c8384f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1918; --fg: #ece6e2; --muted: #a89c95; --accent: #e66a7e; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { margin-bottom: 4px; }
+  h2 { margin-top: 32px; font-size: 1.2rem; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Pinwheel Privacy Policy</h1>
+<p class="muted">Last updated: October 19, 2026</p>
+
+<p>Pinwheel is a personal Windows desktop application used by its developer to prepare
+and publish Pins to the developer's own Pinterest business account. It is not a hosted
+service and has no other users.</p>
+
+<h2>What Pinwheel accesses</h2>
+<ul>
+  <li>Image files and metadata (titles, descriptions, links, board names) that the user
+      selects on their own computer.</li>
+  <li>With the user's permission, granted through Pinterest's official OAuth sign-in, the
+      user's own Pinterest boards and the ability to create Pins on them.</li>
+</ul>
+
+<h2>What Pinwheel does not do</h2>
+<ul>
+  <li>It never asks for, stores or sees Pinterest passwords or browser session cookies.</li>
+  <li>It does not collect data about other Pinterest users.</li>
+  <li>It has no servers, analytics, tracking, advertising or third-party data sharing.</li>
+  <li>It does not sell, rent or transfer any data.</li>
+</ul>
+
+<h2>Where data is stored</h2>
+<p>Everything stays on the user's own computer: the working queue, a local record of
+published Pins, and the Pinterest access token (kept in the Windows Credential Manager).
+Pin content is sent only to Pinterest, through the Pinterest API, when the user chooses to
+publish a Pin.</p>
+
+<h2>Removing access</h2>
+<p>Access can be revoked at any time in Pinterest settings under connected apps. Deleting
+Pinwheel's local files and its Credential Manager entry removes all data it stored.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: open an issue at
+<a href="https://github.com/aritr-codes/pinwheel-privacy/issues">github.com/aritr-codes/pinwheel-privacy</a>.</p>
+</main>
+</body>
+</html>
